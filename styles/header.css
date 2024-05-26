@@ -79,13 +79,13 @@
   width: 40px;
   border-radius: 20px;
   border:  none;
-  background-color: rgb(245, 245, 245);
+  background-color: grey;
 }
 
 .voice-search-icon{
+  background-color: grey;
   height: 24px;
   margin-top: 4px;
-
 }
 
 
