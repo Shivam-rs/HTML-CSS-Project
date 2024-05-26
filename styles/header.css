@@ -148,6 +148,19 @@
 
 .notifications-icon{
   height: 24px;
+  padding-top: 4px;
+  background-color: inherit;
+}
+
+.notifications-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border:  none;
+}
+
+.notifications-button:hover{
+  background-color: rgb(168, 166, 166);
 }
 
 .current-user-picture{
