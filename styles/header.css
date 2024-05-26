@@ -131,6 +131,19 @@
 
 .youtube-apps-icon{
   height: 24px;
+  padding-top: 4px;
+  background-color: inherit;
+}
+
+.yt-app-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border:  none;
+}
+
+.yt-app-button:hover{
+  background-color: rgb(168, 166, 166);
 }
 
 .notifications-icon{
