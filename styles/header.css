@@ -1,8 +1,17 @@
 .header{
   height: 55px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  z-index: 100;
+  background-color: black;
 }
 
 .button{
@@ -126,6 +135,23 @@
 .notifications-icon{
   height: 24px;
   background-color: inherit;
+}
+
+.notifications-section{
+  position: relative;
+}
+
+.notifications-count{
+  background-color: red;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  padding-right:6px;
+  padding-left:6px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: -1px;
 }
 
 .current-user-picture{

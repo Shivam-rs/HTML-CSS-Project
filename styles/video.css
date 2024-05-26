@@ -13,7 +13,23 @@
 }
 
 .thumbnail-row{
+  position: relative;
   margin-bottom: 12px;
+}
+
+.video-time{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+
+  color: white;
+  background-color: black;
+
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px;
+  border-radius: 2px;
 }
 
 .video-title{
