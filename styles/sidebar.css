@@ -1,8 +1,35 @@
-.sidebarr{
+.sidebar{
   position: fixed;
   left: 0;
   bottom: 0;
   background-color: black;
   top: 55px;
-  width: 72px;
+  width: 80px;
+  padding-top: 10px;
+}
+
+.sidebar-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 76px;
+}
+
+.sidebar-link:hover{
+  background-color: rgb(168, 166, 166);
+  border-radius: 10px;
+}
+
+.sidebar-link img{
+  background-color: inherit;
+  margin-bottom: 4px;
+  height: 25px;
+}
+
+.sidebar-link div{
+  font-family: Roboto, Arial;
+  background-color: inherit;
+  font-size: 10px;
+  color: white;
 }
