@@ -12,7 +12,11 @@
   height: 55px;
   z-index: 100;
   background-color: black;
-  border: 1px solid red;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
 }
 
 .button{
@@ -60,7 +64,6 @@
 .left-section{
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 
 .hamburger-button{
@@ -83,11 +86,10 @@
   flex: 1;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   margin-left: 70px;
   margin-right: 35px;
   max-width: 500px;
-
-  border: 1px solid red;
 }
 
 .search-bar{
@@ -107,7 +109,7 @@
 
 .search-bar:focus{
   outline: none;
-  border-color: blue;
+  border-color: rgb(41, 41, 145);
 }
 
 .search-bar::placeholder{
@@ -183,9 +185,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-shrink: 0;
-  border: 1px solid red;
 }
 
 .upload-icon,
