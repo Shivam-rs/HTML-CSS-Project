@@ -2,10 +2,11 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  background-color: black;
-  top: 55px;
-  width: 80px;
-  padding-top: 10px;
+  background-color: transparent;
+  top: 65px;
+  width: 90px;
+  /* padding-top: 10px; */
+  /* border: 1px solid red; */
 }
 
 .sidebar-link {

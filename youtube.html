@@ -22,83 +22,86 @@
   </head>
 
   <body>
-    <div class="header">
-      <div class="left-section">
-        <button class="hamburger-button button">
-          <img
-            src="icons/hamburger-menu.svg"
-            alt="menu bar"
-            class="hamburger-menu"
-          />
-        </button>
-
-        <img
-          src="icons/youtube-logo.svg"
-          alt="youtube-logo"
-          class="youtube-logo"
-        />
-      </div>
-
-      <div class="middle-section">
-        <input
-          type="text"
-          name="search-bar"
-          id="search-bar"
-          placeholder="Search"
-          class="search-bar"
-        />
-
-        <button class="search-button">
-          <img src="icons/search.svg" alt="search icon" class="search-icon" />
-          <div class="tooltip">Search</div>
-        </button>
-        <button class="voice-search-button">
-          <img
-            src="icons/voice-search-icon.svg"
-            alt="voice icon"
-            class="voice-search-icon"
-          />
-          <div class="tooltip">Search with your voice</div>
-        </button>
-      </div>
-
-      <div class="right-section">
-        <button class="upload-button button">
-          <img
-            src="icons/upload.svg"
-            alt="upload video button"
-            class="upload-icon"
-          />
-          <div class="tooltip">Creat</div>
-        </button>
-
-        <button class="yt-app-button button">
-          <img
-            src="icons/youtube-apps.svg"
-            alt="other app on youtube"
-            class="youtube-apps-icon"
-          />
-          <div class="tooltip">YouTube Apps</div>
-        </button>
-
-        <div class="notifications-section">
-          <button class="notifications-button button">
+    <div class="header navbar  container-fluid">
+      <div class="row">
+        <div class="left-section col-xl-3">
+          <button class="hamburger-button button">
             <img
-              src="icons/notifications.svg"
-              alt="notifications"
-              class="notifications-icon"
+              src="icons/hamburger-menu.svg"
+              alt="menu bar"
+              class="hamburger-menu"
             />
-            <div class="tooltip">Notifications</div>
           </button>
-          <div class="notifications-count">3</div>
+  
+          <img
+            src="icons/youtube-logo.svg"
+            alt="youtube-logo"
+            class="youtube-logo"
+          />
         </div>
-
-        <img
-          src="profile-picture/my-profile.jpeg"
-          alt="My profile photo"
-          class="img-fluid rounded-circle current-user-picture"
-        />
+  
+        <div class="middle-section col-xl-6">
+          <input
+            type="text"
+            name="search-bar"
+            id="search-bar"
+            placeholder="Search"
+            class="search-bar"
+          />
+  
+          <button class="search-button">
+            <img src="icons/search.svg" alt="search icon" class="search-icon" />
+            <div class="tooltip">Search</div>
+          </button>
+          <button class="voice-search-button">
+            <img
+              src="icons/voice-search-icon.svg"
+              alt="voice icon"
+              class="voice-search-icon"
+            />
+            <div class="tooltip">Search with your voice</div>
+          </button>
+        </div>
+  
+        <div class="right-section col-xl-3 navbar-nav me-auto">
+          <button class="upload-button button">
+            <img
+              src="icons/upload.svg"
+              alt="upload video button"
+              class="upload-icon"
+            />
+            <div class="tooltip">Creat</div>
+          </button>
+  
+          <button class="yt-app-button button">
+            <img
+              src="icons/youtube-apps.svg"
+              alt="other app on youtube"
+              class="youtube-apps-icon"
+            />
+            <div class="tooltip">YouTube Apps</div>
+          </button>
+  
+          <div class="notifications-section">
+            <button class="notifications-button button">
+              <img
+                src="icons/notifications.svg"
+                alt="notifications"
+                class="notifications-icon"
+              />
+              <div class="tooltip">Notifications</div>
+            </button>
+            <div class="notifications-count">3</div>
+          </div>
+  
+          <img
+            src="profile-picture/my-profile.jpeg"
+            alt="My profile photo"
+            class="img-fluid rounded-circle current-user-picture"
+          />
+        </div>
       </div>
+      
     </div>
     <div class="sidebar">
       <div class="sidebar-link">

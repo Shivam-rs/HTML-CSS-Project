@@ -1,10 +1,10 @@
 .header{
-  height: 55px;
+  /* height: 55px; */
 
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
+  justify-content: space-between; */
+  padding-top: 10px;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,6 +12,7 @@
   height: 55px;
   z-index: 100;
   background-color: black;
+  border: 1px solid red;
 }
 
 .button{
@@ -59,6 +60,7 @@
 .left-section{
   display: flex;
   align-items: center;
+  border: 1px solid red;
 }
 
 .hamburger-button{
@@ -84,6 +86,8 @@
   margin-left: 70px;
   margin-right: 35px;
   max-width: 500px;
+
+  border: 1px solid red;
 }
 
 .search-bar{
@@ -175,11 +179,13 @@
 }
 
 .right-section{
-  width: 200px;
+  max-width: 300px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
+  border: 1px solid red;
 }
 
 .upload-icon,

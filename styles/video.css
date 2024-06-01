@@ -3,15 +3,14 @@
   margin: 0;
 }
 
-.row{
+/* .row{
   border: 1px solid red;
-}
+} */
 
 .video-grid{
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr; */
   column-gap: 16px;
-  row-gap: 50px;
 }
 
 .video-preview{
